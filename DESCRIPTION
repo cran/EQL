@@ -1,5 +1,5 @@
 Package: EQL
-Version: 1.0-0
+Version: 1.0-1
 Date: 2009-06-18
 Title: Extended-Quasi-Likelihood-Function (EQL)
 Depends: ttutils(>= 0.1-0)
@@ -8,8 +8,9 @@ Author: Thorn Thaler <thorn.thaler@thothal.com>
 Maintainer: Thorn Thaler <thorn.thaler@thothal.com>
 Description: Computation of the EQL for a given family of variance
         functions, Saddlepoint-approximations and related auxiliary
-        functions (e.g. Hermite polynomials)
+        functions (e.g. Hermite polynomials).
 License: GPL-2
-Packaged: Mon Sep 28 15:05:33 2009; thothal
+Packaged: 2019-08-30 13:02:46 UTC; hornik
 Repository: CRAN
-Date/Publication: 2009-09-28 13:36:19
+Date/Publication: 2019-08-30 13:04:27 UTC
+NeedsCompilation: no

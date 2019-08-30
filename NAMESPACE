@@ -14,3 +14,8 @@ S3method(print, varianceFamily)
 S3method(print, extFamily)
 S3method(dim, varianceFamily)
 
+importFrom("grDevices", "colorRampPalette", "heat.colors")
+importFrom("graphics", "abline", "mtext", "par", "points", "segments",
+           "text")
+importFrom("stats", "dnorm", "glm", "integrate", "make.link", "qchisq",
+           "runif", "splinefun")

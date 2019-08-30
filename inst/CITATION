@@ -1,8 +1,7 @@
 citHeader("To cite package 'EQL' in publications use:")
 
-desc <- packageDescription("EQL")
 year <- 2009
-vers <- paste("R package version", desc$Version)
+vers <- paste("R package version", meta$Version)
 school <- paste("Technische Universit", "\\", "\"{a}t Graz", sep="")
 school2 <- "Technische Universitaet Graz"
 title <- "Die Extended-Quasi-Likelihood-Funktion in Generalisierten Linearen Modellen"

@@ -24,7 +24,7 @@
 }
 
 hermite <- function(x, n, prob=TRUE) {
-  isBadDegree <- any(n < 0 || !isInteger(n))
+  isBadDegree <- any((n < 0) | !isInteger(n))
   if(isBadDegree) {
     stop("Argument 'n' must be a vector of non-negative integers!")
   }
